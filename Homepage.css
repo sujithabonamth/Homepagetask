@@ -1,0 +1,164 @@
+*{
+  padding: 0;
+  margin:0;
+}
+
+body {
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Portal{
+
+  padding-left:15px;
+padding-right :15px;
+font-size: 11px;
+   background-color: #4A6BAE ;
+  color:white;
+display:inline-block;
+}
+.requestlink {
+  display :flex;
+
+  justify-content: flex-end;
+}
+
+.globe{
+  height: 140px;
+  padding-top:20px;
+}
+.topnav {
+padding-top: 4px;
+margin-top: 24px;
+
+background-color: rgba(24,43,67,0.8);
+
+justify-content: center;
+display: flex;
+}
+
+.Home {
+
+  color: white;
+  
+  font-weight: 700;
+  padding: 17px 8px;
+  
+}
+
+.title{
+  color:white;
+ background-color: rgba(24,43,67,0.4);
+  display:flex;
+  padding: 20px;
+letter-spacing: 3px;
+
+font-family: system-ui;
+  font-weight: 400;
+}
+
+.information{
+  line-height: 10px;
+  display:block;
+}
+
+li {
+  list-style-type: none;
+}
+ul{
+  
+  display: flex;
+  
+align-items: center;
+  height: 24px;
+font-size :14px;
+font-family: system-ui;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+/* Style Section */
+
+.style {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+ 
+}
+ 
+ li  ::after{
+
+  content:"|";
+padding-left:16px;
+padding-right:10px;
+
+
+}
+
+/* Title Styles */
+.title1 {
+
+  margin: 5px;
+
+}
+
+.row {
+padding:19px;
+
+  display: flex;
+
+}
+.content {
+
+  width: 1050px;
+  line-height: 22px;
+  background-color: rgba(24,43,67,0.8);
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+  font-family: system-ui;
+}
+
+.col {
+  padding:10px;
+}
+.footer {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    text-align: center;
+    padding: 10px ;
+   padding-bottom: 10px;
+    height:10px;
+    margin: 0px,auto;
+
+}
+.quote{
+color:#4A6BAE;
+}
+.footerSize{
+
+padding-top:10px;
+padding: 20px;
+}
+li:hover {
+
+background-color:#4A667F;
+
+}
+nav::before{
+  content:"Read this -";
+}
+.heading{
+  color:white;
+}
